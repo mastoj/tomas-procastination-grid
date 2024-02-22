@@ -75,6 +75,7 @@ export const getColumns = (
         );
       },
       accessorKey: "name",
+      enableGlobalFilter: true,
     },
     {
       header: ({ column }) => {
@@ -89,6 +90,7 @@ export const getColumns = (
         );
       },
       accessorKey: "project",
+      enableGlobalFilter: true,
     },
     {
       header: ({ column }) => {
@@ -103,18 +105,22 @@ export const getColumns = (
         );
       },
       accessorKey: "role",
+      enableGlobalFilter: true,
     },
     {
       header: () => <div className="text-left font-bold">Allocation (%)</div>,
       accessorKey: "allocationPercentage",
+      enableGlobalFilter: false,
     },
     {
       header: () => <div className="text-left font-bold">Allocation (hrs)</div>,
       accessorKey: "allocationHours",
+      enableGlobalFilter: false,
     },
     {
       id: "actions",
       cell: ({ row }) => <ActionCell row={row} setAction={setAction} />,
+      enableGlobalFilter: false,
     },
   ];
 };
