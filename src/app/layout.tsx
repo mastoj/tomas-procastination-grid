@@ -6,7 +6,7 @@ import Header from "@/components/ui/layout/header";
 import { ThemeProvider } from "@/components/ui/layout/theme-provider";
 import { Toaster } from "sonner";
 
-export const fontSans = FontSans({
+const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
 });
