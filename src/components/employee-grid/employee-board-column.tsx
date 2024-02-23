@@ -22,7 +22,7 @@ const EmployeeBoardColumn = ({ data, index }: Props) => {
             {...provided.dragHandleProps}
             className="w-full rounded-md bg-[#f1f2f4] shadow-md pb-2"
           >
-            <h2 className="px-3 pt-2">{data.title}</h2>
+            <h2 className="px-3 pt-2 text-black">{data.title}</h2>
             <Droppable droppableId={data.title} type="card">
               {(provided) => (
                 <ol
