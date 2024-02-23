@@ -13,3 +13,14 @@ export type EmployeeRecord = {
   project: string;
   role: Role;
 };
+
+export type EmployeeRecordCard = {
+  type: "card";
+  data: EmployeeRecord;
+};
+
+export type ListWithCards = {
+  type: "list";
+  title: string;
+  data: EmployeeRecordCard[];
+};

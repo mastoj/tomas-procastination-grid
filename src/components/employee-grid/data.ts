@@ -1,6 +1,7 @@
 import { Project, EmployeeRecord, Role } from "./types";
 
-// Generate a list of 4 projects
+// Generate a list of 4 projects with actual names, not something like Project X
+
 const projects: Project[] = [
   { id: 1, name: "Project 1" },
   { id: 2, name: "Project 2" },
@@ -16,7 +17,7 @@ const getFirstName = () => {
     "Andreas",
     "Mads",
     "Eirik",
-    "Thomas",
+    "Tomas",
     "Jonas",
     "Lars",
     "Ole",
