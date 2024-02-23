@@ -12,7 +12,7 @@ import {
 } from "../ui/dropdown-menu";
 import { ArrowUpDown, MoreHorizontal } from "lucide-react";
 import { Button } from "../ui/button";
-import EmployeeEditModal from "./employee-edit";
+import EmployeeEditModal from "./employee-edit-modal";
 import { useState } from "react";
 
 type ActionCellProps = {

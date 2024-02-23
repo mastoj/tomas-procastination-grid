@@ -6,7 +6,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import React from "react";
+import React, { useState } from "react";
 import { EmployeeRecord } from "./types";
 import EmployeeEditForm from "./employee-edit-form";
 
